@@ -3,9 +3,11 @@ import '../App.css'
 
 function Slogan(){
     return(
-        <Container className='sloganStyle' style={{"paddingRight": "50%", paddingLeft:"50%", paddingTop:"13%" ,paddingBottom:"15%" }}>
+        <section className='sloganStyle'>
+        <Container>
             <h1 className='sloganText'>revolutionizing real-estate investments.</h1>
         </Container>
+        </section>
     )
 };
 
